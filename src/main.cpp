@@ -6,12 +6,10 @@
 // Temperature sensor initialization
 MPU6050 mpu6050(Wire);
 
-
-
 long timer = 0;
 
 void setup() {
-  
+  Serial.begin(115200);
 }
 
 void loop() {
